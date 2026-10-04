@@ -1,0 +1,11 @@
+Flowers for Algernon;Daniel Keyes;1966;311;1;;
+1984;George Orwell;1949;328;1;;
+Animal Farm;George Orwell;1945;112;1;;
+Man's Search for Meaning;Viktor Frankl;1946;165;1;;
+The Plague;Albert Camus;1947;308;0;Deniska;
+Steppenwolf;Hermann Hesse;1927;237;1;;
+The Poppy War;R.F. Kuang;2018;544;1;;
+Mother of Learning;Domagoj Kurmaic;2011;2400;0;Deniska;
+All Quiet on the Western Front;Erich Maria Remarque;1929;296;1;;
+Money, or the Dog Called Money;Bodo Schafer;1997;176;1;;
+Tales of Herding Gods;Zhai Zhu;2011;16000;0;Gandalf;
