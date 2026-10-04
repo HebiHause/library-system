@@ -83,7 +83,7 @@ The helper function `ExtractField` reads one field at a time from the front of a
 
 ---
 
-## 4. List of Functions
+## 3. List of Functions
 
 | Name | Parameters | Purpose |
 |---|---|---|
@@ -107,7 +107,7 @@ The helper function `ExtractField` reads one field at a time from the front of a
 
 ---
 
-## 5. Testing
+## 4. Testing
 
 | # | Action | Input | Expected Result | Actual Result |
 |---|---|---|---|---|
@@ -136,16 +136,13 @@ The helper function `ExtractField` reads one field at a time from the front of a
 
 ---
 
-## 6. Conclusions
+## 5. Conclusions
 
 [Fill in: what was learned, what was difficult, and ideas for future extensions — e.g. these are suggested talking points:]
 
 - Working with `record` types and dynamic arrays (`array of TBook`) to model structured, growable data instead of separate parallel arrays.
 - Reading and writing semicolon-separated data to a text file, and the importance of keeping the field order and separator count consistent between reading (`ExtractField`) and writing (`SaveBooksToFile`).
-- Implementing Bubble Sort generically enough that the same algorithm structure works for `String` and `Integer` fields — only the comparison condition changes.
 - Handling edge cases (empty catalog, invalid menu input, out-of-range indices) to avoid runtime crashes — this required adding checks that weren't part of the initial design.
-- Difficulties encountered: [e.g. mixing `Read`/`ReadLn` causing leftover input in the buffer; operator precedence with `or` in boolean conditions; keeping the in-memory array and the text file in sync after every change].
-- Possible extensions: binary search instead of linear search (would require keeping the catalog sorted by the search key); a more robust file format (e.g. CSV with proper escaping, or JSON); a due-date system for borrowed books; a GUI instead of a console interface.
 
 ---
 
