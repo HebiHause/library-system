@@ -83,14 +83,6 @@ The helper function `ExtractField` reads one field at a time from the front of a
 
 ---
 
-## 3. Main Menu Flowchart
-
-![Main menu flowchart](diagram.png)
-
-*(Flowchart describing the main `repeat...until` loop: display menu → read user choice → execute the corresponding action via `case` → repeat until the user selects "0. Log out".)*
-
----
-
 ## 4. List of Functions
 
 | Name | Parameters | Purpose |
@@ -163,7 +155,6 @@ The helper function `ExtractField` reads one field at a time from the front of a
 bibliothek/
 ├── bibliothek.pas   # Main program source
 ├── books.txt        # Persistent book data (semicolon-separated)
-├── diagram.png       # Main menu flowchart
 └── README.md         # This report
 ```
 
